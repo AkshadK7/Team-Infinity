@@ -1,10 +1,18 @@
 /* .card {
     margin-bottom: 10px;
   } */
-
+.calculator {
+  height: 6em;
+  width: 6em;
+  padding-left: 2em;
+}
 hr {
   max-width: 100%;
   border-color: rgb(117, 112, 112);
+}
+.image {
+  height: 2em;
+  width: 2em;
 }
 
 .super-container {
