@@ -1,0 +1,103 @@
+/* .card {
+    margin-bottom: 10px;
+  } */
+
+hr {
+  max-width: 100%;
+  border-color: rgb(117, 112, 112);
+}
+
+.super-container {
+  font-size: 10px;
+  height: 50%;
+  /* padding-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px; */
+}
+
+.card-title {
+  padding-top: 1em;
+  /* margin-bottom: 0px; */
+}
+
+.card-text {
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.card-img-top {
+  padding: 0px;
+}
+
+.custom-card {
+  padding: 0;
+  margin-bottom: 0px;
+  background-color: rgb(203, 241, 230);
+  box-shadow: 0 0.2em 2em rgb(130, 135, 136);
+}
+
+.solid {
+  width: 100%;
+  border-bottom: 0.3em solid #ccc;
+  flex: 1;
+}
+
+.input-group {
+  padding-right: 1em;
+  padding-left: 1em;
+  justify-content: center;
+}
+
+.input-group-text {
+  background-color: powderblue;
+}
+
+.form-control {
+  background-color: white;
+}
+
+.display-total {
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  padding-bottom: 10em;
+  margin: 1em;
+  /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+#chk-button {
+  /* border: 2px solid black; */
+  width: 10em;
+  font-size: 2.5em;
+  padding: 0.7em;
+  margin: auto;
+  padding-left: 0.5em;
+}
+
+.l2 {
+  /* border: 2px solid green; */
+  font-size: 2.5em;
+  width: 15em;
+  padding: 0.8em;
+  margin: auto;
+  justify-content: space-around;
+  /* margin: auto; */
+  /* padding-top: 2em; */
+}
+
+.cbtn {
+  padding: 0px;
+  margin-bottom: 0.5em;
+  color: #0d95e8;
+  font-size: 2em;
+}
+
+#l1 {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 0.4em;
+}
