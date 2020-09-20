@@ -1,25 +1,30 @@
-<!--sdssdfdsssss-->
-
 <!doctype html>
 <html lang="en">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap" rel="stylesheet"> -->
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/contact.css">
-    <title>Infinity Scrapers</title>
+    <title>Contact Us</title>
+    <link href="css/contact.css" rel="stylesheet">
 </head>
 
 <body>
+
     <style type="text/css">
-               body { background: #e0ece4 80%  !important; }         /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-     </style>
+        body {
+            background: #b3cde0 !important;
+        }
+
+        /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    </style>
 
     <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
         <a class="navbar-brand" href="#">Infinity Scrapers</a>
@@ -30,32 +35,8 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-                </li>
-
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="FAQ.html">FAQs</a>
-                </li>
-
-                <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Learn More
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Our Team</a>
-                        <a class="dropdown-item" href="#">Innovations</a>
-                        <a class="dropdown-item" href="#">FAQ</a>
-                    </div>
-                </li> -->
-
-                <li class="nav-item">
-                    <a class="nav-link" href="rate-card.html">Rate Card</a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item active">
@@ -63,174 +44,179 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="our-app.html">Our App</a>
+                    <a class="nav-link" href="rate-card.html">Rate Card</a>
                 </li>
 
-                </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Learn More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="how.html">How It Works?</a>
+                        <a class="dropdown-item" href="about.html">About Us</a>
+                        <a class="dropdown-item" href="FAQ.html">FAQ</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index1.html" target="_blank">Our App</a>
+                </li>
+            </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-danger my-2 my-sm-0 " type="submit">Search</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
 
             <!-- <div class="mx-2">
                 <button class="btn btn-light" data-toggle="modal" data-target="#loginModal">Login</button>
                 <button class="btn btn-light" data-toggle="modal" data-target="#signupModal">Sign Up</button>
             </div> -->
-
         </div>
     </nav>
 
-
-        <!-- <div class="container my-4">
-    
-            <form action="https://formspree.io/aanchal.saxena.11.70@gmail.com" method="POST">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" name="_replyto" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                
-                
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Describe your concern</label>
-                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </div> -->
-<!-------------------------------------ADDING A BETTER CONTACT US PAGE ------------------------------------------------------------------>
-<div class="container">
-    <div class="row">
-        <ol class="col-12 breadcrumb bread">
-            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-            <li class="breadcrumb-item active ">Contact Us</li>
-        </ol>
-        <div class="col-12">
-           <h3 class="vv">Contact Us</h3>
-           <hr>
+    <div class="container">
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">Contact Us</li>
+            </ol>
         </div>
     </div>
 
-    <div class="row row-content">
-       <div class="col-12">
-          <h3>Location Information</h3>
-       </div>
-        <div class="col-12 col-sm-4 offset-sm-1">
-               <h5>Our Address</h5>
-                <address style="font-size: 180%">
-                  SRM UNIVERSITY, Chennai<br>
-                  Potheri, Kattankulathur<br>
-                  Tamil Nadu<br>
-                  Pincode: 603203<br>
-                  <i class="fa fa-phone"></i>: +100 1204 3078<br>
-                  <i class="fa fa-fax"></i>: +100 8765 4321<br>
-                  <i class="fa fa-envelope"></i>:
-                <a href="mailto:ak.net">Team-Infinity.net</a>
-               </address>
-        </div>
-        <div class="col-12 col-sm-6 offset-sm-1 mapp">
-            <h5>Map of our Location</h5>
-            
-               
-            <div id="map">
-    
-            </div>   
-            <script async defer
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ-8h04AMzxWDwcFpYDWwx6l0tRAs-8vA&callback=initMap">
-            </script>
-        </div>
-        <div class="col-12 col-sm-11 offset-sm-1">
-            <div class="btn-group" role="group">
-                <a role="button" class="btn btn-danger" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
-                <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
-                <a role="button" class="btn btn-danger" href="mailto:confusion@food.net"><i class="fa fa-envelope-o"></i> Email</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="vv">Contact Us</h3>
+                <hr>
             </div>
         </div>
-    </div>
-    <br>
-    <br>
-    <hr>
 
-    <div class="row row-content">
-       <div class="col-12">
+        <div class="row row-content">
+            <div class="col-12">
+                <h1>Location Information</h1>
+            </div>
+            <div class="col-12 col-sm-4 offset-sm-1">
+                <h5>Our Address</h5>
+                <address style="font-size: 180%">
+                    SRM UNIVERSITY, Chennai<br>
+                    Potheri, Kattankulathur<br>
+                    Tamil Nadu<br>
+                    Pincode: 603203<br>
+                    <i class="fa fa-phone"></i>: +100 1204 3078<br>
+                    <i class="fa fa-fax"></i>: +100 8765 4321<br>
+                    <i class="fa fa-envelope"></i>:
+                    <a href="mailto:ak.net">Team-Infinity.net</a>
+                </address>
+            </div>
+            <div class="col-12 col-sm-6 offset-sm-1 mapp">
+                <h5>Map of our Location</h5>
+
+
+                <div id="map">
+
+                </div>
+                <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ-8h04AMzxWDwcFpYDWwx6l0tRAs-8vA&callback=initMap">
+                    </script>
+            </div>
+            <div class="col-12 col-sm-11 offset-sm-1">
+                <div class="btn-group" role="group">
+                    <a role="button" class="btn btn-danger" href="tel:+85212345678"><i class="fa fa-phone"></i> Call</a>
+                    <a role="button" class="btn btn-info"><i class="fa fa-skype"></i> Skype</a>
+                    <a role="button" class="btn btn-danger" href="mailto:confusion@food.net"><i
+                            class="fa fa-envelope-o"></i> Email</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+
+        <div class="row row-content">
+            <div class="col-12">
                 <h3>Send us your Feedback</h3>
-       </div>
-        <div class="col-12 ">
-            <form>
-                <div class="form-group row">
-                    <label for="firstname" class="col-md-2 col-form-label">First Name</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
-                    <div class="col-md-10">
-                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-                    <div class="col-5 col-md-3">
-                        <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Area code">
-                    </div>
-                    <div class="col-7 col-md-7">
-                        <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="emailid" class="col-md-2 col-form-label">Email</label>
-                    <div class="col-md-10">
-                        <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <div class="col-md-6 offset-md-2">
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-                            <label class="form-check-label" for="approve">
-                                <strong>May we contact you?</strong>
-                            </label>
+            </div>
+            <div class="col-12 ">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname"
+                                placeholder="First Name">
                         </div>
                     </div>
-                    <div class="col-md-3 offset-md-1">
-                        <select class="form-control">
-                            <option>Tel.</option>
-                            <option>Email</option>
-                        </select>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname"
+                                placeholder="Last Name">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
-                    <div class="col-md-10">
-                        <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areacode" name="areacode"
+                                placeholder="Area code">
+                        </div>
+                        <div class="col-7 col-md-7">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <div class="offset-md-2 col-md-10">
-                        <button type="submit" class="btn btn-danger btnf" >Send Feedback</button>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                        </div>
                     </div>
-                </div>
-            </form>
+                    <div class="form-group row">
+                        <div class="col-md-6 offset-md-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                                <label class="form-check-label" for="approve">
+                                    <strong>May we contact you?</strong>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-danger btnf">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md">
+            </div>
         </div>
-         <div class="col-12 col-md">
-        </div>
-   </div>
 
-</div>   
-<!-------------------------------------ADDING A BETTER CONTACT US PAGE ------------------------------------------------------------------>
-    <div class="card text-center">
+    </div>
+    <!-------------------------------------ADDING A BETTER CONTACT US PAGE ------------------------------------------------------------------>
+    <div class="card text-center bg-dark text-white">
         <div class="card-header">
         </div>
         <div class="card-body">
-          <p>Follow us on <a href="https://www.instagram.com/" class="btn btn-danger">Instagram</a></p>
+            <p>Follow us on <a href="https://www.instagram.com/" class="btn btn-danger">Instagram</a></p>
         </div>
-        <div class="card-footer text-muted">
-            <p>Blog built by <a>Team Infinity</a>. </p>
+        <div class="card-footer text-muted bg-dark">
+            <p>Blog built by <span style="color: white;"><strong>Team infinity.</strong></span></p>
             <p><a href="#">Back to top</a></p>
         </div>
-      </div>
-      <script src="js/contact.js"></script>
+    </div>
+    <script src="js/contact.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

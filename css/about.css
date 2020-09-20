@@ -1,0 +1,153 @@
+/* .bg-dark {
+    background-color: black!important;
+    opacity: 0.9;
+  
+  }
+   */
+  
+
+  /* .card-footer 
+{
+  background-color: #2c2c2e;
+  border-top: 1px solid rgb(32, 31, 31);
+  opacity: 0.8;
+} */
+hr {
+  max-width: 100%;
+  height: 1px;
+  border: 1px solid rgb(117, 112, 112);
+  background-color:  rgb(117,112,112);
+}
+.text-muted 
+{
+  color: white!important;
+}
+
+/* .breadcrumb
+{
+    padding: .75rem 1rem;
+    background-color: #d1d6db;
+} */
+
+hr
+{
+    max-width: 100%;
+    height: 1px;
+    border:1px solid rgb(117,112,112);
+    background-color:  rgb(117,112,112);
+}
+
+
+
+.ab h3
+{
+color: red;
+font-size: 70px !important;
+font-weight: bold;
+text-align: center;
+}
+
+h2
+{
+font-weight: bold;
+font-size: 40px;
+}
+
+.bg-danger 
+{
+    background-color:#343a40!important;
+}
+
+img
+{
+  width: 420px;
+  height: 320px;
+  margin-left:50px;
+  margin-top: 18px;
+  margin-bottom:35px;
+  box-shadow: 0 0.2em 2em rgb(130, 135, 136);
+  border-radius: 39px;
+  padding: 5px;
+  /* width: 50px; */
+  
+}
+
+img:hover 
+{
+  box-shadow: 0 0 2px 1px rgba(12, 5, 5, 0.5);
+}
+
+p
+{
+   margin-top: 26px;
+}
+
+.imgg
+{
+  margin-left:-39px;
+  margin-top: -58px;
+  margin-bottom:35px;
+  /* box-shadow: rgb(2, 7, 7) 15px 13px 29px 6px; */
+  /* border-radius: 39px; */
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.quote
+{
+  box-shadow: rgb(2, 7, 7) 3px 9px 35px 7px;
+  margin-top: 22px;
+
+}
+
+.quote:hover 
+{
+  box-shadow: 0 0 2px 1px rgba(12, 5, 5, 0.5);
+}
+
+.content h3
+ {
+  /* margin-top: px; */
+  color: red;
+  font-size: 70px !important;
+  font-weight: bold;
+}
+
+.content
+{
+  text-align: center;
+  width: 1140px;
+  height: 119px;
+
+}
+
+.quo
+{
+  color: rgb(0, 128, 38);
+  /* font-weight: bold; */
+  font-size: 21px;
+}
+
+.questions
+{
+  width: 1140px;
+  height: 119px;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.bg-dark {
+  background-color: #03396c!important;
+}
+
+.btn
+{
+  
+  border-radius: .25rem;
+}
+
+a {
+  color: #007bff;
+}
