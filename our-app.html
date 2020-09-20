@@ -1,11 +1,202 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team-Infinity</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/new-age.min.css">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <title>Infinity Scrapers</title>
 </head>
 <body>
-    <h1>Our App</h1>
+    <!-- <h1>Infinity Scrapers</h1> -->
+
+    <style type="text/css">
+        body {
+            background: #b3cde0 !important;
+        }
+
+        /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+        <a class="navbar-brand" href="#">Infinity Scrapers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="rate-card.html">Rate Card</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Learn More
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="how.html">How It Works?</a>
+                        <a class="dropdown-item" href="about.html">About Us</a>
+                        <a class="dropdown-item" href="FAQ.html">FAQS</a>
+                        <!-- <div class="dropdown-divider"></div> -->
+                    </div>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="our-app.html" target="_blank">Our App</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 50px; ">
+        <div class="header-content mx-auto text-center">
+            <h1 class="mb-5">SEND PICKUP REQUEST!
+                <hr>
+                <header class="masthead">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            <div class="col-lg-7 my-auto">
+                                <div class="header-content mx-auto">
+                                    <h1 class="mb-5">Use our app and sell all that useless trash that's
+                                        been piling up at your place.</h1>
+                                    <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Send Pick-Up
+                                        Request Now!</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 my-auto">
+                                <div class="device-container">
+                                    <div class="device-mockup iphone6_plus portrait white">
+                                        <div class="device">
+                                            <div class="screen mob">
+                                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                                <img src="imgs/mob1N.jpeg" class="img-fluid" alt="" >
+                                            </div>
+                                            <div class="button">
+                                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <section class="features" id="features">
+                    <div class="container">
+                        <div class="section-heading text-center">
+                            <h2>Unlimited Features, Unlimited Fun</h2>
+                            <p class="text-muted">Check out what you can do with this app!</p>
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 my-auto">
+                                <div class="device-container">
+                                    <div class="device-mockup iphone6_plus portrait white">
+                                        <div class="device">
+                                            <div class="screen mob">
+                                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                                <img src="imgs/mob2N.jpeg" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="button">
+                                                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 my-auto">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="feature-item">
+                                                <i class="icon-screen-smartphone text-primary"></i>
+                                                <h3>Arrange pickup</h3>
+                                                <p class="text-muted">Choose any pickup time as per your ease.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="feature-item">
+                                                <i class="icon-location-pin text-primary"></i>
+                                                <h3>Your location</h3>
+                                                <p class="text-muted">Give your own location or a near-by pickup point
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="feature-item">
+                                                <i class="icon-present text-primary"></i>
+                                                <h3>Free to Use</h3>
+                                                <p class="text-muted">This application is free to download.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="feature-item">
+                                                <i class="icon-lock text-primary"></i>
+                                                <h3>Secure</h3>
+                                                <p class="text-muted">Don't worry, your details are secure in your
+                                                    wallet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </h1>
+        </div>
+    </div>
+
+    <div class="card text-center bg-dark text-white">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+            <p>Follow us on <a href="https://www.instagram.com/" class="btn btn-danger">Instagram</a></p>
+        </div>
+        <div class="card-footer text-muted bg-dark">
+            <p>Blog built by <span style="color: white;"><strong>Team infinity.</strong></span></p>
+            <p><a href="#">Back to top</a></p>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
