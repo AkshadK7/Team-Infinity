@@ -11,7 +11,7 @@ Here is a preview of our Mobile-view for our amazing platform!
 <img src="imgs/1.jpeg" height="300px">             <img src="imgs/4.jpeg" height="300px">            <img src="imgs/mob1N.jpeg" height="300px"> 
 
 
-Our Final Deployments -
+### Our Final Deployments -
 
 Website -
 https://team-infinity-web.netlify.app/
