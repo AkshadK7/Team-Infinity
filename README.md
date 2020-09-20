@@ -7,12 +7,6 @@ We have created a digital-platform which helps people connect with the scrap wor
 
 Here is a preview of our Mobile-view for our amazing platform!
 
-<img src="imgs/1.jpeg" height="300px">           <img src="imgs/2.jpeg" height="300px">         <img src="imgs/3.jpeg" height="300px"> 
+<img src="imgs/1.jpeg" height="300px">             <img src="imgs/4.jpeg" height="300px">            
 
-<img src="imgs/4.jpeg" height="300px">           <img src="imgs/5.jpeg" height="300px">         <img src="imgs/6.jpeg" height="300px"> 
-
-<img src="imgs/7.jpeg" height="300px">           <img src="imgs/8.jpeg" height="300px">      
-
-Here is a preview of our web-app through which customers will send pick-up requests!
-
-<img src="imgs/mob1N.jpeg" height="300px">         <img src="imgs/mob2N.jpeg" height="300px"> 
+<img src="imgs/mob1N.jpeg" height="300px"> 
