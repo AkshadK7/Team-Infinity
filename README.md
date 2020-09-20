@@ -14,10 +14,10 @@ Here is a preview of our Mobile-view for our amazing platform!
 Our Final Deployments -
 
 Website -
-team-infinity-web.netlify.app
+https://team-infinity-web.netlify.app/
 
 WebApp-
-infinity-web-app-scrappy.netlify.app
+https://infinity-web-app-scrappy.netlify.app/
 
 Repo link for WebApp-
-github.com/AkshadK7/Team-Infinity-Web-App
+https://github.com/AkshadK7/Team-Infinity-Web-App
