@@ -1,0 +1,47 @@
+.jj {
+    border: 1px solid #1f2020;
+    /* border-radius: 100% 5% 100% 0% / 17% 30% 70% 83%; */
+    height: 307 px;
+    border-radius: 4px;
+}
+
+
+/* .yy {
+    box-shadow: 0 0.2em 2em rgb(130, 135, 136);
+} */
+/* 
+.yy :hover {
+    margin: 3px;
+    border-radius: 873% 12% 283% 111% /80% 220% 141% 300%;
+    transition: 2s;
+} */
+
+.aa {
+    color:#961b1b!important;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Kufam', cursive;
+}
+
+.card-footer {
+    background-color: #2c2c2e;
+    border-top: 1px solid rgb(32, 31, 31);
+    opacity: 0.8;
+}
+
+.text-muted {
+    color: white!important;
+}
+
+
+/* for navbar and below card footer */
+
+.bg-dark {
+    background-color: #03396c!important;
+    /* opacity: 0.9; */
+}
+
+.btn {
+    border-radius: 300px;
+    width: 120px;
+}

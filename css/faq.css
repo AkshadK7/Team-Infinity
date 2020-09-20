@@ -31,6 +31,7 @@
 .sections:hover {
   box-shadow: 0 0.2em 2em rgb(130, 135, 136);
 }
+
 .questions {
   display: flex;
   flex-direction: row;

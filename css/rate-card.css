@@ -2,13 +2,15 @@
     margin-bottom: 10px;
   } */
 .calculator {
-  height: 6em;
-  width: 6em;
+  height:8em;
+  width: 8em;
   padding-left: 2em;
 }
 hr {
   max-width: 100%;
-  border-color: rgb(117, 112, 112);
+  height: 1px;
+  border: 1px solid rgb(117, 112, 112);
+  background-color:  rgb(117,112,112);
 }
 .image {
   height: 2em;
@@ -55,6 +57,10 @@ hr {
   padding-right: 1em;
   padding-left: 1em;
   justify-content: center;
+}
+.bg-dark {
+  background-color: #03396c!important;
+  /* opacity: 0.9; */
 }
 
 .input-group-text {
